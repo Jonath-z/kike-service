@@ -11,7 +11,7 @@ const Zoom = () => {
                     name: 'sandals',
                 }}
                 price={'$25'}
-                className={'bg-black bg-opacity-90 z-30 fixed  top-0 bottom-0 left-0 right-0 flex justify-center items-center'}
+                className={'bg-black bg-opacity-90 z-30 fixed  top-0 bottom-0 left-0 right-0 flex justify-center items-center xsm:mx-5 sm:mx-5'}
                 views={[kike_product, kike_product]}
             />
         </div>
