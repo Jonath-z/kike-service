@@ -1,8 +1,10 @@
 import { combineReducers } from "redux";
 import { toggleZoomReducer } from "./toogleZoomReducer";
 
+console.log('reducer', toggleZoomReducer);
+
 const reducers = combineReducers({
-    toogleZoom: toggleZoomReducer
+    toggleZoom: toggleZoomReducer
 });
 
 export default reducers;

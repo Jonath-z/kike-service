@@ -34,7 +34,7 @@ const ProductCard = ({
         <div className={className}>
             {countArray.map((index) => {
                 return (
-                    <div key={`${index}_${price}`} className='bg-white mb-20 shadow-xl rounded-xl text-black'>
+                    <div key={`${index}_${price}`} className='bg-white mb-20 shadow-xl rounded-xl text-black border border-gray-100'>
                         <div className='flex flex-row justify-between'>
                             <OutMapVector
                                 className='w-12 h-12 px-3 py-3 ml-5 mt-5 rounded-full border border-gray-300 cursor-pointer'
